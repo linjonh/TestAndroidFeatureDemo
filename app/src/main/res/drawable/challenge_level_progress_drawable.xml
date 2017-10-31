@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="1">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#6bfff5"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <!--level 2-->
+    <item android:maxLevel="2">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#6ef09e"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="3">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffe14d"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="4">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ffbe24"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="5">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ff9b00"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="6">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ff7100"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="7">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#42afff"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="8">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#eb69ff"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="9">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <solid android:color="#ff5557"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="10">
+        <layer-list>
+            <item android:id="@android:id/background">
+                <shape android:shape="rectangle">
+                    <solid android:color="#1A000000"/>
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="2dp"
+                        android:color="#1AFFFFFF"/>
+                </shape>
+            </item>
+            <item android:id="@android:id/progress">
+                <clip android:clipOrientation="horizontal">
+                    <shape android:shape="rectangle">
+                        <gradient
+                            android:angle="-90"
+                            android:endColor="#d29234"
+                            android:startColor="#ffe2a6"/>
+                        <corners android:radius="4dp"/>
+                        <stroke
+                            android:width="2dp"
+                            android:color="#1AFFFFFF"/>
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+</level-list>

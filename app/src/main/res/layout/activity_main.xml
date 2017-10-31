@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.jaysen.testfeaturedemo.MainActivity"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="showDialog"
+            />
+
+        <com.jaysen.testfeaturedemo.SimplePagerTabLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/challenge_tab_layout"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_round_tablayout_bg"
+            android:padding="2dp"
+            android:saveEnabled="false"
+            app:SimplePager_divider_color="#e4e9f0"
+            app:SimplePager_divider_width="2dp"
+            app:SimplePager_radius="20dp"
+            app:SimplePager_tab_background="@drawable/shape_round_tab_view_bg"
+            app:SimplePager_text_default_color="#6d2d3c4e"
+            app:SimplePager_text_size="13sp"
+            />
+        <android.support.design.widget.TabLayout
+            android:id="@+id/designTabLayout"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="?attr/actionBarSize"
+            app:tabPaddingStart="0dp"
+            app:tabPaddingEnd="0dp"
+            app:tabPaddingBottom="0dp"
+            app:tabPaddingTop="0dp"
+            >
+
+        </android.support.design.widget.TabLayout>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/challengeViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            >
+
+        </android.support.v4.view.ViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_renwu_banner"
+            >
+            <!--            style="?android:attr/progressBarStyleHorizontal"
+            -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:progress="40"
+                />
+
+
+        </RelativeLayout>
+        <include layout="@layout/item_video_play_back_layout"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="showFragment"
+            />
+
+        <com.jaysen.testfeaturedemo.View.PickerLayout
+            android:id="@+id/picker_content"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            >
+
+        </com.jaysen.testfeaturedemo.View.PickerLayout>
+    </LinearLayout>
+
+</FrameLayout>
