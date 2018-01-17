@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/spanTest"
-        android:title="spanTestActivity"/>
+    <item
+        android:id="@+id/spanTest"
+        android:title="spanTestActivity"
+        />
+    <item
+        android:id="@+id/recycleView"
+        android:title="recycleViewActivity"
+        />
+    <item
+        android:id="@+id/NestedScrollView"
+        android:title="NestedScrollView"
+        />
+    <item
+        android:id="@+id/queryPermission"
+        android:title="queryPermission"
+        />
 </menu>

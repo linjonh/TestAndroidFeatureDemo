@@ -20,6 +20,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.jaysen.testfeaturedemo.RecycleViewDragAndDrop.ScrollingActivity;
+import com.jaysen.testfeaturedemo.permissionTest.Main2Activity;
 import com.jaysen.testfeaturedemo.span.SpanTestActivity;
 
 import q.rorbin.badgeview.Badge;
@@ -120,6 +122,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.spanTest:
                 Intent intent = new Intent(this, SpanTestActivity.class);
                 startActivity(intent);
+                return true;
+
+            case R.id.recycleView:
+                Intent recycleViewIntent = new Intent(this, ScrollingActivity.class);
+                startActivity(recycleViewIntent);
+                return true;
+            case R.id.queryPermission:
+                Intent queryPermission = new Intent(this, Main2Activity.class);
+                startActivity(queryPermission);
                 return true;
         }
         return super.onOptionsItemSelected(item);
